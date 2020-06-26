@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercicio de Vue-Js 3</title>
+  </head>
+  <body id="Fundo">
+    <div id="app">
+      <p>quantidade atual: {{quantidade}}</p>
+      <button @click="adicionar">Clica aqui para adicionar 1!</button>
+      <button @click="remover" v-if="quantidade >0">Clica aqui para remover 1</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
